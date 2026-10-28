@@ -86,7 +86,9 @@ body {
 
 .mast-art { align-self: center; }
 
-.portrait { width: 100%; max-width: 330px; height: auto; display: block; overflow: visible; }
+/* one 300px box for every board: the drawing letterboxes inside it, so a 21 x 51 mm
+   board and a 45 x 18 mm board occupy exactly the same space in the system */
+.portrait { width: 100%; max-width: 300px; height: 300px; display: block; overflow: visible; }
 
 .pt-body { fill: var(--ink-2); stroke: var(--accent); stroke-width: 1.1; }
 .pt-pad { stroke: var(--accent); stroke-width: 0.45; }
@@ -138,8 +140,9 @@ body {
   gap: 6px 22px;
 }
 
-.mark { display: inline-flex; align-items: center; margin-right: 6px; }
+.mark { display: inline-flex; align-items: center; margin-right: 6px; border-bottom: none; padding: 0; }
 .mark svg { width: 26px; height: 26px; display: block; overflow: visible; }
+.mark:hover svg, .mark:focus-visible svg { filter: brightness(1.35); }
 
 .nav a {
   color: #A8B0BE;
@@ -249,7 +252,7 @@ footer { background: var(--ink); color: #8A93A6; padding: 28px 24px; }
 @media (max-width: 900px) {
   .mast-inner { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   .mast-art { order: -1; }
-  .portrait { max-width: 260px; }
+  .portrait { max-width: 260px; height: 260px; }
 }
 
 @media (max-width: 520px) {

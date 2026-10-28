@@ -1,0 +1,42 @@
+[
+  {
+    "page": "index",
+    "title": "The Microcontroller Encyclopedia",
+    "pins": 12
+  },
+  {
+    "page": "pages/arduino-nano",
+    "title": "Arduino Nano Pin Encyclopedia",
+    "pins": 22
+  },
+  {
+    "page": "pages/raspberry-pi-pico",
+    "title": "Raspberry Pi Pico",
+    "pins": 40
+  },
+  {
+    "page": "pages/ESP32S3-WROOM",
+    "title": "ESP32 WROOM Pin Encyclopedia",
+    "pins": 34
+  },
+  {
+    "page": "pages/cameras",
+    "title": "Camera Modules",
+    "pins": 12
+  },
+  {
+    "page": "pages/RC522-RFID",
+    "title": "RFID & NFC Readers",
+    "pins": 10
+  },
+  {
+    "page": "pages/LCD-OLED",
+    "title": "LCD & OLED Displays",
+    "pins": 16
+  },
+  {
+    "page": "pages/about",
+    "title": "About",
+    "pins": 12
+  }
+]
