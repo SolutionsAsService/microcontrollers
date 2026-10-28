@@ -21,6 +21,7 @@
 
   <link rel="stylesheet" href="../styles.css">
 
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
 </head>
 
 
@@ -31,35 +32,44 @@
      HEADER
      ========================================================= -->
 
-<header>
-
-  <div class="site-title">
-
-    <h1>
-      ESP / Arduino Pin Encyclopedia
-    </h1>
-
-    <p>
-      Embedded hardware reference &amp; interface guide
-    </p>
-
+<header class="mast" style="--accent:#6E3BF5">
+  <div class="mast-inner">
+    <div class="mast-text">
+      <p class="eyebrow">Board</p>
+      <h1>Camera Modules</h1>
+      <p class="sub">Embedded hardware reference &amp;amp; interface guide</p>
+      <dl class="spec-rail"><div class="spec"><dt>Pins in this table</dt><dd>12</dd></div><div class="spec"><dt>Footprint</dt><dd>not stated</dd></div><div class="spec"><dt>Source</dt><dd>—</dd></div></dl><p class="scale-note">schematic · footprint not stated here</p>
+    </div>
+    <div class="mast-art"><svg class="portrait" viewBox="-14 -14 49.24 46.00" role="img" aria-labelledby="pt-cameras pd-cameras" data-pins="12">
+<defs><pattern id="hatch-cameras" width="1.6" height="1.6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="1.6" stroke="#6E3BF5" stroke-width="0.55"/></pattern></defs>
+<title id="pt-cameras">Camera Modules — 12 pins</title>
+<desc id="pd-cameras">Board outline with 12 pin positions. schematic · footprint not stated here. Pin 1 and pin 12 are marked; the USB end is marked. Each pad is filled from that pin's own row in the pinout table: ground solid grey, supply in the accent colour, ADC hatched, digital unfilled.</desc>
+<rect class="pt-body" x="0" y="0" width="21.24" height="18.00" rx="1.6"/>
+<rect class="pt-pad pt-pwr pt-pad--one" id="pad-cameras-1" data-pin="1" tabindex="0" role="button" aria-label="Pin 1: VCC" x="0.00" y="1.57" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-gnd" id="pad-cameras-2" data-pin="2" tabindex="0" role="button" aria-label="Pin 2: GND" x="0.00" y="4.14" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-3" data-pin="3" tabindex="0" role="button" aria-label="Pin 3: XCLK" x="0.00" y="6.71" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-4" data-pin="4" tabindex="0" role="button" aria-label="Pin 4: PCLK" x="0.00" y="9.29" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-5" data-pin="5" tabindex="0" role="button" aria-label="Pin 5: VSYNC" x="0.00" y="11.86" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-6" data-pin="6" tabindex="0" role="button" aria-label="Pin 6: HREF / HSYNC" x="0.00" y="14.43" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-7" data-pin="7" tabindex="0" role="button" aria-label="Pin 7: D0–D7" x="19.44" y="14.43" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-8" data-pin="8" tabindex="0" role="button" aria-label="Pin 8: D8–D9" x="19.44" y="11.86" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-9" data-pin="9" tabindex="0" role="button" aria-label="Pin 9: SDA / SDIO" x="19.44" y="9.29" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-10" data-pin="10" tabindex="0" role="button" aria-label="Pin 10: SCL / SIOC" x="19.44" y="6.71" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-cameras-11" data-pin="11" tabindex="0" role="button" aria-label="Pin 11: RESET" x="19.44" y="4.14" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-pwr" id="pad-cameras-12" data-pin="12" tabindex="0" role="button" aria-label="Pin 12: PWDN" x="19.44" y="1.57" width="1.8" height="2.0" rx="0.5"/>
+<text class="pt-lab pt-lab--one" x="-6" y="2.17" text-anchor="end">1</text>
+<text class="pt-lab" x="27.24" y="2.17" text-anchor="start">12</text>
+</svg></div>
   </div>
-
-
-  <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="ESP32S3-WROOM.html">ESP32</a></li>
-      <li><a href="arduino-nano.html">Arduino Nano</a></li>
-      <li><a class="active" href="cameras.html">Cameras</a></li>
-      <li><a href="RC522-RFID.html">RFID / NFC</a></li>
-      <li><a href="LCD-OLED.html">LCD / OLED</a></li>
-      <li><a href="raspberry-pi-pico.html">Raspberry Pi Pico</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-  </nav>
-
 </header>
+<nav class="nav" aria-label="Sections"><span class="mark"><svg viewBox="-3 -3 27.24 24.00" aria-hidden="true"><rect class="pt-body" x="0" y="0" width="21.24" height="18.00" rx="1.6"/><rect class="pt-pad pt-dig" x="0.00" y="1.57" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="4.14" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="6.71" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="9.29" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="11.86" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="14.43" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="14.43" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="11.86" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="9.29" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="6.71" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="4.14" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="1.57" width="1.8" height="2.0" rx="0.5"/></svg></span><a href="index.html">Home</a>
+<a href="pages/ESP32S3-WROOM.html">ESP32</a>
+<a href="pages/arduino-nano.html">Arduino Nano</a>
+<a href="pages/cameras.html" aria-current="page">Cameras</a>
+<a href="pages/RC522-RFID.html">RFID / NFC</a>
+<a href="pages/LCD-OLED.html">LCD / OLED</a>
+<a href="pages/raspberry-pi-pico.html">Raspberry Pi Pico</a>
+<a href="pages/about.html">About</a></nav>
 
 
 
@@ -79,7 +89,7 @@
     </div>
 
 
-    <h2>
+    <h2 id="camera-modules">
       Camera Modules
     </h2>
 
@@ -140,7 +150,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="camera-module-reference-scope">
     Camera Module Reference Scope
   </h2>
 
@@ -199,7 +209,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="how-an-embedded-camera-works">
     How an Embedded Camera Works
   </h2>
 
@@ -301,7 +311,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="common-camera-signals">
     Common Camera Signals
   </h2>
 
@@ -320,19 +330,19 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Signal
           </th>
 
-          <th>
+          <th scope="col">
             Direction
           </th>
 
-          <th>
+          <th scope="col">
             Function
           </th>
 
-          <th>
+          <th scope="col">
             Category
           </th>
 
@@ -344,7 +354,7 @@
       <tbody>
 
 
-        <tr>
+        <tr data-pin="1" class="row--pwr">
 
           <td>
             VCC
@@ -365,7 +375,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="2" class="row--gnd">
 
           <td>
             GND
@@ -386,7 +396,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="3">
 
           <td>
             XCLK
@@ -407,7 +417,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="4">
 
           <td>
             PCLK
@@ -428,7 +438,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="5">
 
           <td>
             VSYNC
@@ -449,7 +459,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="6">
 
           <td>
             HREF / HSYNC
@@ -470,7 +480,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="7">
 
           <td>
             D0–D7
@@ -491,7 +501,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="8">
 
           <td>
             D8–D9
@@ -512,7 +522,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="9">
 
           <td>
             SDA / SDIO
@@ -533,7 +543,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="10">
 
           <td>
             SCL / SIOC
@@ -554,7 +564,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="11">
 
           <td>
             RESET
@@ -575,7 +585,7 @@
         </tr>
 
 
-        <tr>
+        <tr data-pin="12" class="row--pwr">
 
           <td>
             PWDN
@@ -612,7 +622,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="camera-control-vs-camera-data">
     Camera Control vs Camera Data
   </h2>
 
@@ -632,15 +642,15 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Interface
           </th>
 
-          <th>
+          <th scope="col">
             Purpose
           </th>
 
-          <th>
+          <th scope="col">
             Typical Signals
           </th>
 
@@ -736,7 +746,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="common-ov-series-camera-sensors">
     Common OV-Series Camera Sensors
   </h2>
 
@@ -833,7 +843,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="ov5110-reference">
     OV5110 Reference
   </h2>
 
@@ -891,7 +901,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="generic-parallel-camera-interface">
     Generic Parallel Camera Interface
   </h2>
 
@@ -911,15 +921,15 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Signal
           </th>
 
-          <th>
+          <th scope="col">
             Typical Direction
           </th>
 
-          <th>
+          <th scope="col">
             Purpose
           </th>
 
@@ -1134,7 +1144,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="xclk-camera-clock">
     XCLK — Camera Clock
   </h2>
 
@@ -1195,7 +1205,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="pclk-pixel-clock">
     PCLK — Pixel Clock
   </h2>
 
@@ -1234,7 +1244,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="vsync-href-amp-hsync">
     VSYNC, HREF &amp; HSYNC
   </h2>
 
@@ -1247,15 +1257,15 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Signal
           </th>
 
-          <th>
+          <th scope="col">
             Purpose
           </th>
 
-          <th>
+          <th scope="col">
             Concept
           </th>
 
@@ -1341,7 +1351,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="pixel-data-formats">
     Pixel Data Formats
   </h2>
 
@@ -1361,11 +1371,11 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Format
           </th>
 
-          <th>
+          <th scope="col">
             General Description
           </th>
 
@@ -1460,7 +1470,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="cameras-amp-esp32">
     Cameras &amp; ESP32
   </h2>
 
@@ -1542,7 +1552,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="camera-resource-planning">
     Camera Resource Planning
   </h2>
 
@@ -1561,15 +1571,15 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Resource
           </th>
 
-          <th>
+          <th scope="col">
             Required Signals
           </th>
 
-          <th>
+          <th scope="col">
             Design Question
           </th>
 
@@ -1733,7 +1743,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="why-cameras-are-different-from-ordinary-sensors">
     Why Cameras Are Different From Ordinary Sensors
   </h2>
 
@@ -1808,7 +1818,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="camera-power-requirements">
     Camera Power Requirements
   </h2>
 
@@ -1827,15 +1837,15 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Supply
           </th>
 
-          <th>
+          <th scope="col">
             Purpose
           </th>
 
-          <th>
+          <th scope="col">
             Important Consideration
           </th>
 
@@ -1943,7 +1953,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="camera-clock-architecture">
     Camera Clock Architecture
   </h2>
 
@@ -1989,7 +1999,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="sccb-i2c-style-camera-control">
     SCCB / I2C-Style Camera Control
   </h2>
 
@@ -2010,11 +2020,11 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Signal
           </th>
 
-          <th>
+          <th scope="col">
             Purpose
           </th>
 
@@ -2075,7 +2085,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="common-camera-problems">
     Common Camera Problems
   </h2>
 
@@ -2088,15 +2098,15 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Problem
           </th>
 
-          <th>
+          <th scope="col">
             Possible Cause
           </th>
 
-          <th>
+          <th scope="col">
             Check
           </th>
 
@@ -2243,7 +2253,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="camera-engineering-rules">
     Camera Engineering Rules
   </h2>
 
@@ -2363,7 +2373,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="choosing-a-camera-module">
     Choosing a Camera Module
   </h2>
 
@@ -2376,11 +2386,11 @@
 
         <tr>
 
-          <th>
+          <th scope="col">
             Requirement
           </th>
 
-          <th>
+          <th scope="col">
             Consider
           </th>
 
@@ -2499,7 +2509,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="machine-readable-camera-definition">
     Machine-Readable Camera Definition
   </h2>
 
@@ -2568,7 +2578,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="camera-encyclopedia-roadmap">
     Camera Encyclopedia Roadmap
   </h2>
 
@@ -2671,7 +2681,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="embedded-camera-stack">
     Embedded Camera Stack
   </h2>
 
@@ -2719,7 +2729,7 @@
 
 <section>
 
-  <h2>
+  <h2 id="canonical-camera-reference">
     Canonical Camera Reference
   </h2>
 
@@ -2768,15 +2778,15 @@
      ========================================================= -->
 
 <footer>
-
-  <p>
-    ESP / Arduino Pin Encyclopedia —
-    Camera &amp; Image Sensor Reference
-  </p>
-
+  <div class="foot-inner">
+    <p>The Microcontroller Encyclopedia — embedded hardware reference.</p>
+    <p class="foot-note">Every pin count on this page is counted from the table below; every
+    footprint is quoted from the manufacturer's own documentation, or marked not stated.</p>
+  </div>
 </footer>
 
 
+  <script src="../assets/site.js" defer></script>
 </body>
 
 </html>

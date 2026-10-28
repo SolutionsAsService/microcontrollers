@@ -12,31 +12,30 @@
   >
 
   <link rel="stylesheet" href="../styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
 </head>
 
 <body>
 
-<header>
-
-  <div class="site-title">
-    <h1>ESP / Arduino Pin Encyclopedia</h1>
-    <p>Embedded hardware reference &amp; interface guide</p>
+<header class="mast mast--about" style="--accent:#4A5160">
+  <div class="mast-inner">
+    <div class="mast-text">
+      <p class="eyebrow">Board</p>
+      <h1>About</h1>
+      <p class="sub">Embedded hardware reference &amp;amp; interface guide</p>
+      
+    </div>
+    <div class="mast-art"></div>
   </div>
-
-  <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="ESP32S3-WROOM.html">ESP32</a></li>
-      <li><a href="arduino-nano.html">Arduino Nano</a></li>
-      <li><a href="cameras.html">Cameras</a></li>
-      <li><a href="RC522-RFID.html">RFID / NFC</a></li>
-      <li><a href="LCD-OLED.html">LCD / OLED</a></li>
-      <li><a href="raspberry-pi-pico.html">Raspberry Pi Pico</a></li>
-      <li><a class="active" href="about.html">About</a></li>
-    </ul>
-  </nav>
-
 </header>
+<nav class="nav" aria-label="Sections"><span class="mark"><svg viewBox="-3 -3 27.24 24.00" aria-hidden="true"><rect class="pt-body" x="0" y="0" width="21.24" height="18.00" rx="1.6"/><rect class="pt-pad pt-dig" x="0.00" y="1.57" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="4.14" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="6.71" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="9.29" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="11.86" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="14.43" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="14.43" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="11.86" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="9.29" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="6.71" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="4.14" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="19.44" y="1.57" width="1.8" height="2.0" rx="0.5"/></svg></span><a href="index.html">Home</a>
+<a href="pages/ESP32S3-WROOM.html">ESP32</a>
+<a href="pages/arduino-nano.html">Arduino Nano</a>
+<a href="pages/cameras.html">Cameras</a>
+<a href="pages/RC522-RFID.html">RFID / NFC</a>
+<a href="pages/LCD-OLED.html">LCD / OLED</a>
+<a href="pages/raspberry-pi-pico.html">Raspberry Pi Pico</a>
+<a href="pages/about.html" aria-current="page">About</a></nav>
 
 
 <main>
@@ -54,7 +53,7 @@
         ENCYCLOPEDIA / REFERENCE
       </div>
 
-      <h2>About This Encyclopedia</h2>
+      <h2 id="about-this-encyclopedia">About This Encyclopedia</h2>
 
       <p>
         A practical, structured reference for understanding
@@ -83,7 +82,7 @@
 
   <section>
 
-    <h2>Our Mission</h2>
+    <h2 id="our-mission">Our Mission</h2>
 
     <p>
       The ESP / Arduino Pin Encyclopedia exists to make embedded
@@ -113,7 +112,7 @@
 
   <section>
 
-    <h2>What This Encyclopedia Covers</h2>
+    <h2 id="what-this-encyclopedia-covers">What This Encyclopedia Covers</h2>
 
     <div class="card-grid">
 
@@ -194,7 +193,7 @@
 
   <section>
 
-    <h2>Why Pin Information Matters</h2>
+    <h2 id="why-pin-information-matters">Why Pin Information Matters</h2>
 
     <p>
       A microcontroller pin is rarely just an input or output.
@@ -209,9 +208,9 @@
         <thead>
 
           <tr>
-            <th>Capability</th>
-            <th>Example</th>
-            <th>Why It Matters</th>
+            <th scope="col">Capability</th>
+            <th scope="col">Example</th>
+            <th scope="col">Why It Matters</th>
           </tr>
 
         </thead>
@@ -281,7 +280,7 @@
 
   <section>
 
-    <h2>Source-of-Truth Philosophy</h2>
+    <h2 id="source-of-truth-philosophy">Source-of-Truth Philosophy</h2>
 
     <p>
       The encyclopedia is intended to be more than a collection of
@@ -331,7 +330,7 @@
 
   <section>
 
-    <h2>How to Use the Encyclopedia</h2>
+    <h2 id="how-to-use-the-encyclopedia">How to Use the Encyclopedia</h2>
 
     <div class="interface-box">
 
@@ -392,7 +391,7 @@
 
   <section>
 
-    <h2>Electrical Compatibility</h2>
+    <h2 id="electrical-compatibility">Electrical Compatibility</h2>
 
     <p>
       Pin names alone do not guarantee that two devices can be
@@ -401,7 +400,7 @@
 
     <div class="card-grid">
 
-      <div class="card warning">
+      <div class="card warning"><span class="tok tok--warning">CAUTION</span>
 
         <h3>Voltage</h3>
 
@@ -412,7 +411,7 @@
 
       </div>
 
-      <div class="card warning">
+      <div class="card warning"><span class="tok tok--warning">CAUTION</span>
 
         <h3>Current</h3>
 
@@ -423,7 +422,7 @@
 
       </div>
 
-      <div class="card warning">
+      <div class="card warning"><span class="tok tok--warning">CAUTION</span>
 
         <h3>Pull-Ups</h3>
 
@@ -434,7 +433,7 @@
 
       </div>
 
-      <div class="card warning">
+      <div class="card warning"><span class="tok tok--warning">CAUTION</span>
 
         <h3>Special Pins</h3>
 
@@ -456,7 +455,7 @@
 
   <section>
 
-    <h2>Hardware Documentation Standard</h2>
+    <h2 id="hardware-documentation-standard">Hardware Documentation Standard</h2>
 
     <p>
       Future entries are intended to follow a consistent structure
@@ -470,8 +469,8 @@
         <thead>
 
           <tr>
-            <th>Category</th>
-            <th>Information</th>
+            <th scope="col">Category</th>
+            <th scope="col">Information</th>
           </tr>
 
         </thead>
@@ -553,7 +552,7 @@
 
   <section>
 
-    <h2>Machine-Readable Hardware Data</h2>
+    <h2 id="machine-readable-hardware-data">Machine-Readable Hardware Data</h2>
 
     <p>
       A long-term objective is to maintain the hardware information
@@ -601,7 +600,7 @@
 
   <section>
 
-    <h2>Virtual Hardware Lab</h2>
+    <h2 id="virtual-hardware-lab">Virtual Hardware Lab</h2>
 
     <p>
       The encyclopedia is also intended to provide the hardware
@@ -669,7 +668,7 @@
 
   <section>
 
-    <h2>Current Encyclopedia Sections</h2>
+    <h2 id="current-encyclopedia-sections">Current Encyclopedia Sections</h2>
 
     <div class="table-wrapper">
 
@@ -678,8 +677,8 @@
         <thead>
 
           <tr>
-            <th>Section</th>
-            <th>Focus</th>
+            <th scope="col">Section</th>
+            <th scope="col">Focus</th>
           </tr>
 
         </thead>
@@ -726,7 +725,7 @@
 
   <section>
 
-    <h2>Roadmap</h2>
+    <h2 id="roadmap">Roadmap</h2>
 
     <div class="card-grid">
 
@@ -807,7 +806,7 @@
 
   <section>
 
-    <h2>Accuracy &amp; Verification</h2>
+    <h2 id="accuracy-amp-verification">Accuracy &amp; Verification</h2>
 
     <p>
       Hardware documentation can contain significant differences
@@ -862,7 +861,7 @@
 
   <section>
 
-    <h2>Design Philosophy</h2>
+    <h2 id="design-philosophy">Design Philosophy</h2>
 
     <p>
       The encyclopedia is designed around a simple principle:
@@ -892,7 +891,7 @@
 
   <section>
 
-    <h2>Reference at a Glance</h2>
+    <h2 id="reference-at-a-glance">Reference at a Glance</h2>
 
     <div class="interface-box">
 
@@ -920,13 +919,13 @@
 
 
 <footer>
-
-  <p>
-    ESP / Arduino Pin Encyclopedia —
-    Embedded Hardware Reference
-  </p>
-
+  <div class="foot-inner">
+    <p>The Microcontroller Encyclopedia — embedded hardware reference.</p>
+    <p class="foot-note">Every pin count on this page is counted from the table below; every
+    footprint is quoted from the manufacturer's own documentation, or marked not stated.</p>
+  </div>
 </footer>
 
+  <script src="../assets/site.js" defer></script>
 </body>
 </html>

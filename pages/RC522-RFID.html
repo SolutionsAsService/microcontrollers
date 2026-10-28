@@ -12,31 +12,47 @@
   >
 
   <link rel="stylesheet" href="../styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
 </head>
 
 <body>
 
-<header>
-
-  <div class="site-title">
-    <h1>ESP / Arduino Pin Encyclopedia</h1>
-    <p>Embedded hardware reference &amp; interface guide</p>
+<header class="mast" style="--accent:#1769C4">
+  <div class="mast-inner">
+    <div class="mast-text">
+      <p class="eyebrow">Board</p>
+      <h1>RFID &amp; NFC Readers</h1>
+      <p class="sub">Embedded hardware reference &amp;amp; interface guide</p>
+      <dl class="spec-rail"><div class="spec"><dt>Pins in this table</dt><dd>10</dd></div><div class="spec"><dt>Footprint</dt><dd>not stated</dd></div><div class="spec"><dt>Source</dt><dd>—</dd></div></dl><p class="scale-note">schematic · footprint not stated here</p>
+    </div>
+    <div class="mast-art"><svg class="portrait" viewBox="-14 -14 46.70 46.00" role="img" aria-labelledby="pt-rc522-rfid pd-rc522-rfid" data-pins="10">
+<defs><pattern id="hatch-rc522-rfid" width="1.6" height="1.6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="1.6" stroke="#1769C4" stroke-width="0.55"/></pattern></defs>
+<title id="pt-rc522-rfid">RFID &amp; NFC Readers — 10 pins</title>
+<desc id="pd-rc522-rfid">Board outline with 10 pin positions. schematic · footprint not stated here. Pin 1 and pin 10 are marked; the USB end is marked. Each pad is filled from that pin's own row in the pinout table: ground solid grey, supply in the accent colour, ADC hatched, digital unfilled.</desc>
+<rect class="pt-body" x="0" y="0" width="18.70" height="18.00" rx="1.6"/>
+<rect class="pt-pad pt-pwr pt-pad--one" id="pad-rc522-rfid-1" data-pin="1" tabindex="0" role="button" aria-label="Pin 1: VCC" x="0.00" y="2.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-gnd" id="pad-rc522-rfid-2" data-pin="2" tabindex="0" role="button" aria-label="Pin 2: GND" x="0.00" y="5.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-3" data-pin="3" tabindex="0" role="button" aria-label="Pin 3: SDA" x="0.00" y="8.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-4" data-pin="4" tabindex="0" role="button" aria-label="Pin 4: SCL" x="0.00" y="11.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-5" data-pin="5" tabindex="0" role="button" aria-label="Pin 5: SCK" x="0.00" y="14.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-6" data-pin="6" tabindex="0" role="button" aria-label="Pin 6: MOSI" x="16.90" y="14.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-7" data-pin="7" tabindex="0" role="button" aria-label="Pin 7: MISO" x="16.90" y="11.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-8" data-pin="8" tabindex="0" role="button" aria-label="Pin 8: SS / CS" x="16.90" y="8.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-9" data-pin="9" tabindex="0" role="button" aria-label="Pin 9: IRQ" x="16.90" y="5.00" width="1.8" height="2.0" rx="0.5"/>
+<rect class="pt-pad pt-dig" id="pad-rc522-rfid-10" data-pin="10" tabindex="0" role="button" aria-label="Pin 10: RST" x="16.90" y="2.00" width="1.8" height="2.0" rx="0.5"/>
+<text class="pt-lab pt-lab--one" x="-6" y="2.60" text-anchor="end">1</text>
+<text class="pt-lab" x="24.70" y="2.60" text-anchor="start">10</text>
+</svg></div>
   </div>
-
-  <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="ESP32S3-WROOM.html">ESP32</a></li>
-      <li><a href="arduino-nano.html">Arduino Nano</a></li>
-      <li><a href="cameras.html">Cameras</a></li>
-      <li><a class="active" href="RC522-RFID.html">RFID / NFC</a></li>
-      <li><a href="LCD-OLED.html">LCD / OLED</a></li>
-      <li><a href="raspberry-pi-pico.html">Raspberry Pi Pico</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-  </nav>
-
 </header>
+<nav class="nav" aria-label="Sections"><span class="mark"><svg viewBox="-3 -3 24.70 24.00" aria-hidden="true"><rect class="pt-body" x="0" y="0" width="18.70" height="18.00" rx="1.6"/><rect class="pt-pad pt-dig" x="0.00" y="2.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="5.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="8.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="11.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="0.00" y="14.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="16.90" y="14.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="16.90" y="11.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="16.90" y="8.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="16.90" y="5.00" width="1.8" height="2.0" rx="0.5"/><rect class="pt-pad pt-dig" x="16.90" y="2.00" width="1.8" height="2.0" rx="0.5"/></svg></span><a href="index.html">Home</a>
+<a href="pages/ESP32S3-WROOM.html">ESP32</a>
+<a href="pages/arduino-nano.html">Arduino Nano</a>
+<a href="pages/cameras.html">Cameras</a>
+<a href="pages/RC522-RFID.html" aria-current="page">RFID / NFC</a>
+<a href="pages/LCD-OLED.html">LCD / OLED</a>
+<a href="pages/raspberry-pi-pico.html">Raspberry Pi Pico</a>
+<a href="pages/about.html">About</a></nav>
 
 
 <main>
@@ -54,7 +70,7 @@
         RFID / NFC / CONTACTLESS INTERFACES
       </div>
 
-      <h2>RFID &amp; NFC Readers</h2>
+      <h2 id="rfid-amp-nfc-readers">RFID &amp; NFC Readers</h2>
 
       <p>
         A hardware reference for RC522/MFRC522, PN532 and related
@@ -84,7 +100,7 @@
 
   <section>
 
-    <h2>Reference Scope</h2>
+    <h2 id="reference-scope">Reference Scope</h2>
 
     <p>
       RFID and NFC are related technologies, but a reader module,
@@ -160,7 +176,7 @@
 
   <section>
 
-    <h2>RFID vs NFC</h2>
+    <h2 id="rfid-vs-nfc">RFID vs NFC</h2>
 
     <div class="table-wrapper">
 
@@ -168,9 +184,9 @@
 
         <thead>
           <tr>
-            <th>Term</th>
-            <th>Meaning</th>
-            <th>Typical Embedded Use</th>
+            <th scope="col">Term</th>
+            <th scope="col">Meaning</th>
+            <th scope="col">Typical Embedded Use</th>
           </tr>
         </thead>
 
@@ -221,7 +237,7 @@
 
   <section>
 
-    <h2>RC522 / MFRC522</h2>
+    <h2 id="rc522-mfrc522">RC522 / MFRC522</h2>
 
     <p>
       The RC522 module is one of the most common low-cost RFID
@@ -289,7 +305,7 @@
 
   <section>
 
-    <h2>RC522 Module Pinout</h2>
+    <h2 id="rc522-module-pinout">RC522 Module Pinout</h2>
 
     <p>
       The common eight-pin RC522 breakout exposes power, reset,
@@ -303,11 +319,11 @@
         <thead>
 
           <tr>
-            <th>Pin</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Function</th>
-            <th>Typical Use</th>
+            <th scope="col">Pin</th>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Function</th>
+            <th scope="col">Typical Use</th>
           </tr>
 
         </thead>
@@ -393,7 +409,7 @@
 
   <section>
 
-    <h2>RC522 Signal Map</h2>
+    <h2 id="rc522-signal-map">RC522 Signal Map</h2>
 
     <div class="table-wrapper">
 
@@ -402,10 +418,10 @@
         <thead>
 
           <tr>
-            <th>Signal</th>
-            <th>Direction</th>
-            <th>Required?</th>
-            <th>Purpose</th>
+            <th scope="col">Signal</th>
+            <th scope="col">Direction</th>
+            <th scope="col">Required?</th>
+            <th scope="col">Purpose</th>
           </tr>
 
         </thead>
@@ -483,7 +499,7 @@
 
   <section>
 
-    <h2>RC522 + Classic Arduino Nano / Uno</h2>
+    <h2 id="rc522-classic-arduino-nano-uno">RC522 + Classic Arduino Nano / Uno</h2>
 
     <p>
       The classic ATmega328P Arduino Nano and Uno use the same
@@ -497,9 +513,9 @@
         <thead>
 
           <tr>
-            <th>RC522</th>
-            <th>Arduino Nano / Uno</th>
-            <th>ATmega328P Function</th>
+            <th scope="col">RC522</th>
+            <th scope="col">Arduino Nano / Uno</th>
+            <th scope="col">ATmega328P Function</th>
           </tr>
 
         </thead>
@@ -580,7 +596,7 @@
 
   <section>
 
-    <h2>RC522 + ESP32</h2>
+    <h2 id="rc522-esp32">RC522 + ESP32</h2>
 
     <p>
       The ESP32 is particularly convenient for the RC522 because its
@@ -594,9 +610,9 @@
         <thead>
 
           <tr>
-            <th>RC522</th>
-            <th>Common ESP32 GPIO</th>
-            <th>Function</th>
+            <th scope="col">RC522</th>
+            <th scope="col">Common ESP32 GPIO</th>
+            <th scope="col">Function</th>
           </tr>
 
         </thead>
@@ -676,7 +692,7 @@
 
   <section>
 
-    <h2>Understanding SPI</h2>
+    <h2 id="understanding-spi">Understanding SPI</h2>
 
     <p>
       SPI allows multiple peripherals to share the clock and data
@@ -690,9 +706,9 @@
         <thead>
 
           <tr>
-            <th>SPI Signal</th>
-            <th>Direction</th>
-            <th>RC522 Role</th>
+            <th scope="col">SPI Signal</th>
+            <th scope="col">Direction</th>
+            <th scope="col">RC522 Role</th>
           </tr>
 
         </thead>
@@ -743,7 +759,7 @@
 
   <section>
 
-    <h2>Multiple RC522 Readers on One MCU</h2>
+    <h2 id="multiple-rc522-readers-on-one-mcu">Multiple RC522 Readers on One MCU</h2>
 
     <p>
       Multiple SPI readers can share the same SPI bus. Each reader
@@ -759,10 +775,10 @@
         <thead>
 
           <tr>
-            <th>Signal</th>
-            <th>Reader 1</th>
-            <th>Reader 2</th>
-            <th>Reader 3</th>
+            <th scope="col">Signal</th>
+            <th scope="col">Reader 1</th>
+            <th scope="col">Reader 2</th>
+            <th scope="col">Reader 3</th>
           </tr>
 
         </thead>
@@ -829,7 +845,7 @@
 
   <section>
 
-    <h2>PN532 NFC Reader</h2>
+    <h2 id="pn532-nfc-reader">PN532 NFC Reader</h2>
 
     <p>
       PN532 modules are another major category of 13.56 MHz
@@ -898,7 +914,7 @@
 
   <section>
 
-    <h2>RC522 vs PN532</h2>
+    <h2 id="rc522-vs-pn532">RC522 vs PN532</h2>
 
     <div class="table-wrapper">
 
@@ -907,9 +923,9 @@
         <thead>
 
           <tr>
-            <th>Feature</th>
-            <th>RC522 / MFRC522</th>
-            <th>PN532</th>
+            <th scope="col">Feature</th>
+            <th scope="col">RC522 / MFRC522</th>
+            <th scope="col">PN532</th>
           </tr>
 
         </thead>
@@ -979,7 +995,7 @@
 
   <section>
 
-    <h2>PN532 Module Interface Pins</h2>
+    <h2 id="pn532-module-interface-pins">PN532 Module Interface Pins</h2>
 
     <p>
       PN532 breakout boards vary considerably. The following table
@@ -994,80 +1010,80 @@
         <thead>
 
           <tr>
-            <th>Signal</th>
-            <th>Function</th>
-            <th>Interface</th>
-            <th>Notes</th>
+            <th scope="col">Signal</th>
+            <th scope="col">Function</th>
+            <th scope="col">Interface</th>
+            <th scope="col">Notes</th>
           </tr>
 
         </thead>
 
         <tbody>
 
-          <tr>
+          <tr data-pin="1" class="row--pwr">
             <td>VCC</td>
             <td>Power</td>
             <td>Power</td>
             <td>Verify module-specific voltage</td>
           </tr>
 
-          <tr>
+          <tr data-pin="2" class="row--gnd">
             <td>GND</td>
             <td>Ground</td>
             <td>Power</td>
             <td>Common MCU reference</td>
           </tr>
 
-          <tr>
+          <tr data-pin="3">
             <td>SDA</td>
             <td>I2C data</td>
             <td>I2C</td>
             <td>Used when I2C mode is selected</td>
           </tr>
 
-          <tr>
+          <tr data-pin="4">
             <td>SCL</td>
             <td>I2C clock</td>
             <td>I2C</td>
             <td>Used when I2C mode is selected</td>
           </tr>
 
-          <tr>
+          <tr data-pin="5">
             <td>SCK</td>
             <td>SPI clock</td>
             <td>SPI</td>
             <td>Used on SPI configurations</td>
           </tr>
 
-          <tr>
+          <tr data-pin="6">
             <td>MOSI</td>
             <td>SPI input</td>
             <td>SPI</td>
             <td>MCU → PN532</td>
           </tr>
 
-          <tr>
+          <tr data-pin="7">
             <td>MISO</td>
             <td>SPI output</td>
             <td>SPI</td>
             <td>PN532 → MCU</td>
           </tr>
 
-          <tr>
+          <tr data-pin="8">
             <td>SS / CS</td>
             <td>Chip select</td>
             <td>SPI</td>
             <td>SPI device selection</td>
           </tr>
 
-          <tr>
+          <tr data-pin="9">
             <td>IRQ</td>
             <td>Interrupt</td>
             <td>Digital</td>
             <td>Available on supported configurations</td>
           </tr>
 
-          <tr>
+          <tr data-pin="10">
             <td>RST</td>
             <td>Reset</td>
             <td>Digital</td>
@@ -1089,7 +1105,7 @@
 
   <section>
 
-    <h2>Cards, Tags &amp; Contactless Objects</h2>
+    <h2 id="cards-tags-amp-contactless-objects">Cards, Tags &amp; Contactless Objects</h2>
 
     <p>
       Reader compatibility depends on the actual RF protocol and
@@ -1104,9 +1120,9 @@
         <thead>
 
           <tr>
-            <th>Category</th>
-            <th>Example</th>
-            <th>Important Consideration</th>
+            <th scope="col">Category</th>
+            <th scope="col">Example</th>
+            <th scope="col">Important Consideration</th>
           </tr>
 
         </thead>
@@ -1163,7 +1179,7 @@
 
   <section>
 
-    <h2>Arduino RC522 Example</h2>
+    <h2 id="arduino-rc522-example">Arduino RC522 Example</h2>
 
     <p>
       A basic RC522 application can use the Arduino SPI library
@@ -1231,7 +1247,7 @@ void loop() {
 
   <section>
 
-    <h2>ESP32 RC522 Example</h2>
+    <h2 id="esp32-rc522-example">ESP32 RC522 Example</h2>
 
     <p>
       The ESP32 can use the same MFRC522 software model while
@@ -1307,7 +1323,7 @@ void loop() {
 
   <section>
 
-    <h2>Typical RFID Software Flow</h2>
+    <h2 id="typical-rfid-software-flow">Typical RFID Software Flow</h2>
 
     <div class="interface-box">
 
@@ -1344,7 +1360,7 @@ void loop() {
 
   <section>
 
-    <h2>RF Antenna Considerations</h2>
+    <h2 id="rf-antenna-considerations">RF Antenna Considerations</h2>
 
     <p>
       The digital wiring between the reader and MCU is only one part
@@ -1411,7 +1427,7 @@ void loop() {
 
   <section>
 
-    <h2>Common RFID Problems</h2>
+    <h2 id="common-rfid-problems">Common RFID Problems</h2>
 
     <div class="table-wrapper">
 
@@ -1420,9 +1436,9 @@ void loop() {
         <thead>
 
           <tr>
-            <th>Problem</th>
-            <th>Possible Cause</th>
-            <th>Check</th>
+            <th scope="col">Problem</th>
+            <th scope="col">Possible Cause</th>
+            <th scope="col">Check</th>
           </tr>
 
         </thead>
@@ -1480,7 +1496,7 @@ void loop() {
 
   <section>
 
-    <h2>Power &amp; Logic-Level Rules</h2>
+    <h2 id="power-amp-logic-level-rules">Power &amp; Logic-Level Rules</h2>
 
     <ul class="rules">
 
@@ -1540,7 +1556,7 @@ void loop() {
 
   <section>
 
-    <h2>RFID / NFC Reader Selection</h2>
+    <h2 id="rfid-nfc-reader-selection">RFID / NFC Reader Selection</h2>
 
     <div class="table-wrapper">
 
@@ -1549,8 +1565,8 @@ void loop() {
         <thead>
 
           <tr>
-            <th>Requirement</th>
-            <th>Typical Hardware Class</th>
+            <th scope="col">Requirement</th>
+            <th scope="col">Typical Hardware Class</th>
           </tr>
 
         </thead>
@@ -1607,7 +1623,7 @@ void loop() {
 
   <section>
 
-    <h2>Reader Encyclopedia Roadmap</h2>
+    <h2 id="reader-encyclopedia-roadmap">Reader Encyclopedia Roadmap</h2>
 
     <p>
       The RFID section can eventually become a complete reader
@@ -1659,7 +1675,7 @@ void loop() {
 
   <section>
 
-    <h2>Future Machine-Readable Pin Database</h2>
+    <h2 id="future-machine-readable-pin-database">Future Machine-Readable Pin Database</h2>
 
     <p>
       Each reader should eventually have a structured hardware record
@@ -1740,7 +1756,7 @@ void loop() {
 
   <section>
 
-    <h2>RFID Engineering Checklist</h2>
+    <h2 id="rfid-engineering-checklist">RFID Engineering Checklist</h2>
 
     <ul class="rules">
 
@@ -1796,7 +1812,7 @@ void loop() {
 
   <section>
 
-    <h2>Canonical Reference Sources</h2>
+    <h2 id="canonical-reference-sources">Canonical Reference Sources</h2>
 
     <p>
       For production hardware designs, use the actual controller
@@ -1835,13 +1851,13 @@ void loop() {
 
 
 <footer>
-
-  <p>
-    ESP / Arduino Pin Encyclopedia —
-    RFID, NFC &amp; Contactless Reader Reference
-  </p>
-
+  <div class="foot-inner">
+    <p>The Microcontroller Encyclopedia — embedded hardware reference.</p>
+    <p class="foot-note">Every pin count on this page is counted from the table below; every
+    footprint is quoted from the manufacturer's own documentation, or marked not stated.</p>
+  </div>
 </footer>
 
+  <script src="../assets/site.js" defer></script>
 </body>
 </html>
